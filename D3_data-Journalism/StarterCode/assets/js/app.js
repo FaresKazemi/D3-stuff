@@ -57,7 +57,7 @@ var circlesGroup = chartGroup.selectAll("circle")
 .attr("cx", d => xLinearScale(d.poverty))
 .attr("cy", d => yLinearScale(d.healthcare))
 .attr("r", "15")
-.attr("fill", "pink")
+.attr("fill", "yellow")
 .attr("opacity", ".75"); 
 
 //adding abbreviations
